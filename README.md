@@ -1,4 +1,4 @@
-# PowerShell_Function_Get-CalculatedIP
+# PowerShell Function "Get-CalculatedIP"
 ## Description
 This is a simple IP calculator unaware of network boundaries. If you use this as part of a solution to automate exclusion ranges on DHCP scopes keep this in mind. This function will always return a valid IPAddress object, even if that address is outside of the subnet.
 ### **Example**
